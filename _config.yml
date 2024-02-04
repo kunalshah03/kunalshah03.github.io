@@ -1,1 +1,5 @@
-
+title: Kunal Shah
+logo: /assets/img/profile_pic.png
+#descriptions: text below image
+show_downloads: true
+theme: jekyll-theme-tactile
