@@ -1,1 +1,6 @@
-# kunalshah03.github.io
+# Kunal Shah
+
+###Education
+Computer Science, Masters(NC State)
+
+###Work Experience
