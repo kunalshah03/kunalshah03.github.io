@@ -47,11 +47,11 @@ AWS, Google Cloud Platform(GCP), MySQL, MongoDB, Git, Tableau, Docker, Microsoft
 
 ## Publications
 - **EffResUNet: Encoder-decoder architecture for cloud-type segmentation**
-  - Published in Big Data and Cognitive Computing 2022.
+  - Published in Big Data and Cognitive Computing 2022.(https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JH6LZRgAAAAJ&authuser=1&citation_for_view=JH6LZRgAAAAJ:u-x6o8ySG0sC)
   - Researched a cloud-type segmentation encoder-decoder UNet-architecture leveraging EfficientNet.
 
 -  **Image-Based Plant Seedling Classification Using Ensemble Learning**
-  - Published in ICACIE 2021 (LNNS volume 428, Springer).
+  - Published in ICACIE 2021 (LNNS volume 428, Springer).(https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JH6LZRgAAAAJ&authuser=1&citation_for_view=JH6LZRgAAAAJ:u5HHmVD_uO8C)
   - Devised an ensemble-based model for plant seedling classification using a shallow CNN.
 
 ## Projects
