@@ -1,15 +1,14 @@
-# Kunal Shah
 
 - Phone: +1 980-899-3900 
 - Email: kshah24@ncsu.edu 
 - LinkedIn: [linkedin.com/in/kunal-shah-86a23016b/](https://linkedin.com/in/kunal-shah-86a23016b/)
-- GitHub: [GitHub Profile](https://github.com/<your-github-username>)
-- Google Scholar: [Google Scholar Profile](https://scholar.google.com/citations?user=<your-google-scholar-id>)
+- GitHub: [GitHub Profile](https://github.com/kunalshah03)
+- Google Scholar: [Google Scholar Profile](https://scholar.google.com/citations?user=JH6LZRgAAAAJ&hl=en&authuser=1)
 
 ## Education
 - **Master of Science: Computer Science**
   - North Carolina State University 
-  - GPA: 3.75
+  - GPA: 3.75/4.0
   - Duration: 08/2022 - 05/2024
   - Relevant Coursework: Neural Networks and Deep Learning, Database Management Systems, Design & Analysis of Algorithms.
 
