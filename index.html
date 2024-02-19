@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Kunal Shah</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kunal Shah</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Kunal Shah profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kunal Shah</h1>
+        <p class="section__text__p2">CS Grad @ NC State</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/KShah CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/kunal-shah-86a23016b/'"
+            target="_blank"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/kunalshah03'"
+            target="_blank"
+          />
+          <img
+            src="./assets/768px-Google_Scholar_logo.svg.png"
+            alt="My Google Scholar profile"
+            class="icon"
+            onclick="location.href='https://scholar.google.com/citations?user=JH6LZRgAAAAJ&hl=en'"
+            target="_blank"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" >
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+            <div class="text-container">
+              <p style="text-align: justify;">
+              Driven by a relentless passion for innovation, I am a versatile computer science professional pursuing a
+              Master's degree @ North Carolina State University.<br> My journey spans diverse roles, from research endeavors
+              @ NCSU's RAISE Lab to impactful internships @ Fidelity Investments and Omdena. As a proactive contributor
+              to open-source projects, I merge my expertise in Python, PyTorch, and TensorFlow with cloud platforms like AWS
+              and Google Cloud Platform.<br> My commitment to excellence reflects in publications on cloud-type segmentation and
+              plant seedling classification. With a strong foundation in machine learning and software engineering, I eagerly
+               embrace collaborative opportunities to shape the future of technology. </p>
+               <p style="text-align: center;"><b>Let's innovate together!</b>
+              </p>
+            </div>
+
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/open-book.png"
+                  alt="Education icon"
+                  class="icon center"
+                />
+                <h3 style="margin-bottom: 7px;text-align: center;">Education</h3>
+                <div style="display: grid; grid-template-columns: auto auto; margin-bottom:15px">
+                    <span><p><b>
+                      Master of Science: Computer Science</b></p></span>
+                    <span style="text-align: right;"><p><b>GPA: 3.75/4.0</b></p></span>
+                    <span><p>
+                      <img
+                      src="./assets/North_Carolina_State_University_Athletic_logo.svg.png"
+                      alt="Education icon"
+                      class="text_icon"
+                    /><a href="https://www.ncsu.edu/"  target="_blank">North Carolina State University</a> </p></span>
+                    <span style="text-align: right;"><p>Aug 2022 - May 2024</p></span>
+                  </div>
+                  <div style="display: grid; grid-template-columns: auto auto;">
+                    <span><p><b>Bachelor of Engineering: Computer Engineering</b> with <b>Honors: Data Science</b></p></span>
+                    <span style="text-align: right;"><p><b>GPA: 9.66/10</b></p></span>
+                    <span><p>
+                      <img
+                      src="./assets/pune-institute-of-computer-technology-pict-pune.png"
+                      alt="Education icon"
+                      class="text_icon"
+                    /><a href="https://pict.edu/"  target="_blank">Pune Institute of Computer Technology</a></p></span>
+                    <span style="text-align: right;"><p>Aug 2018 - Jun 2022</p></span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+          style="margin-top: 10px;"
+        />
+      </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+
+      <!-- The Timeline -->
+
+        <ul class="timeline">
+
+          <!-- Item 1 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">NC State University</span>
+                <span class="time-wrapper"><span class="time">Jan 2023 - Present</span></span>
+              </div>
+              <div class="desc">Graduate Research Assistant @ RAISE Lab
+                <br>
+
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 2 -->
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Fidelity Investments</span>
+                <span class="time-wrapper"><span class="time">Jun 2023 - Aug 2023</span></span>
+              </div>
+              <div class="desc">Data Scientist (Internship)</div>
+            </div>
+          </li>
+
+          <!-- Item 3 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">NC State University</span>
+                <span class="time-wrapper"><span class="time">Jan 2023 - May 2023</span></span>
+              </div>
+              <div class="desc">Graduate Research Assistant @ RAISE Lab</div>
+            </div>
+          </li>
+
+          <!-- Item 4 -->
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Omdena</span>
+                <span class="time-wrapper"><span class="time">May 2021 - Jul 2021</span></span>
+              </div>
+              <div class="desc">Machine Learning Engineer (Internship)</div>
+            </div>
+          </li>
+
+          <!-- Item 5 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Carikture India</span>
+                <span class="time-wrapper"><span class="time">Jul 2020 - Sep 2020</span></span>
+              </div>
+              <div class="desc">Software Development Intern</div>
+            </div>
+          </li>
+
+        </ul>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Machine Learning & Data Science</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Computer Vision</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Natural Language Processing</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Generative AI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Prompt Engineering</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTorch</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Keras</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Languages & Frameworks</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>SQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Javascript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Java</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Flask</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Django</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>NodeJs</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>ReactJs</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Spring Boot</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Cloud, Databases & Tools</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Amazon Web Services(AWS)</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Google Cloud Platform(GCP)</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>MySQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Docker</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Tableau</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Microsoft Office</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"style="text-align: center;">Anomaly detection in Real-Time Videos</h2>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p3.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="text-align: center;">PacKReview: Version_2</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/kunalshah03/PackReview_Part2', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="text-align: center;">WolfMedia</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/rishikesh-yelne/WolfMedia', '_blank')"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p5.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="text-align: center;">Pose Detection for Sign Language Videos</h2>
+            <!-- <div class="btn-container">
+            </div> -->
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p4.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"style="text-align: center;">PackTravel</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/amisha-w/PackTravel', '_blank')"
+                target="_blank"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="experience-details-container" style="justify-content: left;">
+        <div class="about-containers" style="justify-content: left;">
+          <div class="details-container" style="justify-content: left;">
+            <h2 class="experience-sub-title">Publications</h2>
+            <div class="article-container" style="justify-content: left;">
+
+              <article>
+                <img
+                  src="./assets/publication.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>EffResUNet: Encoder Decoder Architecture for Cloud-Type Segmentation</h3>
+                  <p>Big Data and Cognitive Computing (BDCC) Q1 Journal · Dec 7, 2022</p>
+                  <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.mdpi.com/2504-2289/6/4/150', '_blank')"
+                style="display: flex; justify-content: center; align-items: center; width: auto; padding: 4px;">
+                Show Publication
+                <img
+                  src="./assets/goto.png"
+                  alt="Experience icon"
+                  class="icon"
+                  style="height: 1.5rem; margin-left: 5px;"
+                />
+              </button>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/publication.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    Image-Based Plant Seedling Classification Using Ensemble Learning</h3>
+                  <p>International Conference on Advanced Computing and Intelligent Engineering · Dec 24, 2021</p>
+                  <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://link.springer.com/chapter/10.1007/978-981-19-2225-1_39', '_blank')"
+                style="display: flex; justify-content: center; align-items: center; width: auto; padding: 4px;">
+                Show Publication
+                <img
+                  src="./assets/goto.png"
+                  alt="Experience icon"
+                  class="icon"
+                  style="height: 1.5rem; margin-left: 5px;"
+                />
+              </button>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:kunaljshah03@gmail.com">kunaljshah03@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/kunal-shah-86a23016b/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Kunal Shah. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

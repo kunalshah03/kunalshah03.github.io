@@ -1,6 +1,6 @@
 
-- Phone: +1 980-899-3900 
-- Email: kshah24@ncsu.edu 
+- Phone: +1 980-899-3900
+- Email: kunaljshah03@.gmail.com
 - LinkedIn: [linkedin.com/in/kunal-shah-86a23016b](https://linkedin.com/in/kunal-shah-86a23016b/)
 - GitHub Profile: [github.com/kunalshah03](https://github.com/kunalshah03)
 - [Google Scholar Profile](https://scholar.google.com/citations?user=JH6LZRgAAAAJ&hl=en&authuser=1)
@@ -28,8 +28,8 @@
 -  Developed a **transferable prediction model**, leveraging **hierarchical clustering** with **CARTs** and **transfer learning**, to assess open-source(OS) project health (**95% accuracy**), analyzing **150+** GitHub projects with interpretable insights from **LIME**.
 - Optimized **regression models** for OS health metrics using **HyperOpt**, reducing **mean squared error** by **40%**.
 - Contributed to open-source tools for **automated data mining** in OS projects and participated in NSF-funded research on adapting software engineering practices to computational science.
-- [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931425) 
-  
+- [NSF Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931425)
+
 ### `Data Science Intern` @ `Fidelity Investments` - Durham, NC | 06/2023 - 08/2023
 - Built and deployed a cutting-edge **Generative AI text-to-image model** using **AWS SageMaker** for the Fidelity platform.
 - Evaluated potential Fidelity software for **automated data analysis** on a **2.1M**-participant dataset using **EDA**, **feature engineering**, and **advanced data visualization**.
@@ -48,7 +48,7 @@
 - **EffResUNet: Encoder-decoder architecture for cloud-type segmentation**
   - Researched a cloud-type segmentation **encoder-decoder UNet-architecture** leveraging **EfficientNet**, **residual blocks**, and an **attention mechanism** with an **F1 score** of **0.5735**, surpassing SOTA methods.
   - [Published in Big Data and Cognitive Computing 2022.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JH6LZRgAAAAJ&authuser=1&citation_for_view=JH6LZRgAAAAJ:u-x6o8ySG0sC)
-    
+
 - **Image-Based Plant Seedling Classification Using Ensemble Learning**
   - Devised an **ensemble-based** model for plant seedling classification using a shallow **CNN** for **feature extraction** and **K-Nearest Neighbors** for classification refined through **5-fold cross-validation**. Achieved a recall of **95.32%**, outmatching existing techniques.
   - [Published in ICACIE 2021 (LNNS volume 428, Springer).](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JH6LZRgAAAAJ&authuser=1&citation_for_view=JH6LZRgAAAAJ:u5HHmVD_uO8C)
@@ -62,7 +62,7 @@
 -  **Real-time Video Anomaly Detection**
    -  Created a multi-faceted deployable tool integrating **real-time traffic visualization**, pedestrian **anomaly detection** system (**ROC AUC 0.932**, **20**% false positive reduction), and a **Streamlit**-powered alert system for proactive notifications to enhance traffic safety and security.
    - **Technologies**:  *PyTorch, Python(Pandas, NumPy, Plotly ), OpenCV, YOLO, CNN, Twilio, SendGrid*
-     
+
 -  **[WolfMedia](https://github.com/rishikesh-yelne/WolfMedia)**
    - Designed and built a scalable media streaming platform (WolfMedia) using **Spring Boot** and **Docker**. Managed artists, content, payments, and subscriptions with secure APIs and comprehensive documentation.
    - **Technologies**:  *Java, Spring Boot, SQL, Docker, Swagger API*
@@ -70,7 +70,7 @@
 -  **[PackTravel](https://github.com/amisha-w/PackTravel)**
    - Developed a ride-sharing application (PackTravel) using **Django** and **MongoDB** for university students. Enabled features like **multi-modal route planning**, **ride search/joining**, and **user authentication**. Planned future ML-powered route optimization and cab service integration.
    - **Technologies**:  *Python, JavaScript, Django, MongoDB, Pylint*
-     
+
 -  **[PacReview_Version_2](https://github.com/kunalshah03/PackReview_Part2)**
    - Enhanced an existing Jobs Review System application, enabling users to share anonymous job reviews, featuring comprehensive filtering, pagination, and **MongoDB** migration for scalability and anonymity, leveraging **Python**, **Flask**, **JavaScript**, **SQL**, **MongoDB**, **Git**, **HTML5**, **CSS**, and **Bootstrap** for implementation.
    - **Technologies**:  *Python(Flask), JavaScript, SQL, MongoDB, Git, HTML5, CSS, Bootstrap*
